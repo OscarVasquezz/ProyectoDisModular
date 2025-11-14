@@ -1,2 +1,2 @@
-# ProyectoDise-oModular
+# ProyectoDisModular
 DiseñoModular
