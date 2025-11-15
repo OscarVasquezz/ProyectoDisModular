@@ -69,8 +69,8 @@
 		<!--      DEPENDENCIA DEL COMPONENTE C (LÓGICA COMPARTIDA)           -->
 		<!-- =============================================================== -->
 		<dependency>
-			<groupId>tu.group.id.componente.c</groupId> <!-- Reemplaza con el groupId de tu Componente C -->
-			<artifactId>componente-c</artifactId> <!-- Reemplaza con el artifactId de tu Componente C -->
+			<groupId>oscar.conect.dependencias</groupId> <!-- GroupId de tu proyecto Mavendependencias -->
+			<artifactId>Mavendependencias</artifactId> <!-- ArtifactId de tu proyecto Mavendependencias -->
 			<version>${componente-c.version}</version>
 		</dependency>
 		<dependency>
