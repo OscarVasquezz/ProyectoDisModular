@@ -1,0 +1,59 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"]
+  }
+}
+
+
+
+
+eslint.config.mjs=x.x
+
+.eslintrc.json
+/*
+{
+	"extends":[ "next/core-web-vitals"	]
+
+}*/
+
+
+//NUEVO....
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    // Puedes agregar reglas personalizadas si es necesario
+  }
+}
+----------------------------------------------
+/*{
+  "extends": ["next/core-web-vitals"],
+  "rules": {},
+  "ignorePatterns": ["*.js"]
+}*/
+
+
+----------------------------
+
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {},
+  "ignorePatterns": ["node_modules/", ".next/"],
+  "root": true
+}
+
+
