@@ -5,26 +5,20 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.1</version> <!-- Versión estable y reciente de Spring Boot -->
+		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>oscar.conect.proveedor</groupId>
-	<artifactId>postgresql-componente-b</artifactId> <!-- Nombre más descriptivo y sin erratas -->
+	<artifactId>postgesql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>postgresql-componente-b</name> <!-- Corregido -->
+	<name>postgesql</name>
 	<description>Componente B - Gestión de Proveedores y Facturas con PostgreSQL</description>
-	<url>http://tu-url-de-proyecto.com</url> <!-- URL del repositorio o proyecto -->
+	<url/>
 	<licenses>
-		<license>
-			<name>MIT License</name>
-			<url>http://www.opensource.org/licenses/mit-license.php</url>
-		</license>
+		<license/>
 	</licenses>
 	<developers>
-		<developer>
-			<name>Tu Nombre</name>
-			<email>tu.email@example.com</email>
-		</developer>
+		<developer/>
 	</developers>
 	<scm>
 		<connection/>
@@ -34,8 +28,6 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
-		<!-- Define la versión del componente C como una propiedad para fácil mantenimiento -->
-		<componente-c.version>1.0-SNAPSHOT</componente-c.version>
 	</properties>
 	<dependencies>
 		    <!-- Starter para usar Spring Data JPA con Hibernate -->
@@ -59,20 +51,7 @@
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.5.0</version>
-		</dependency>
-		<!-- Dependencia para el cliente web reactivo (WebClient) para llamadas REST -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
-		<!-- =============================================================== -->
-		<!--      DEPENDENCIA DEL COMPONENTE C (LÓGICA COMPARTIDA)           -->
-		<!-- =============================================================== -->
-		<dependency>
-			<groupId>tu.group.id.componente.c</groupId> <!-- Reemplaza con el groupId de tu Componente C -->
-			<artifactId>componente-c</artifactId> <!-- Reemplaza con el artifactId de tu Componente C -->
-			<version>${componente-c.version}</version>
-		</dependency>
+		</dependency>			
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
